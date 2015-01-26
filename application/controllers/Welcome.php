@@ -8,7 +8,7 @@
  *
  * ------------------------------------------------------------------------
  */
-class Welcome extends Application {
+class Welcome extends Application {//test
 
     function __construct() {
         parent::__construct();

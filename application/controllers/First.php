@@ -45,7 +45,7 @@ class First extends Application {
         $this->render();
     }
     function gimme($which) {
-        $this->data['pagebody'] = 'justone';    // this is the view we want shown
+        $this->data['pagebody'] = 'justone';    // the view we want shown
         $record = $this->quotes->get($which);
         $this->data = array_merge($this->data, $record);
 

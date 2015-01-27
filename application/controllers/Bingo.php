@@ -44,7 +44,7 @@ class Bingo extends Application {
 
         $this->render();
     }
-    function gimme() {
+    function wisdom() {
         $this->data['pagebody'] = 'homepage';    // this is the view we want shown
         // build the list of authors, to pass on to our view
         $source = $this->quotes->all();

@@ -40,11 +40,12 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
+$route['sleep'] = 'first/zzz';
 $route['lock/.*'] = 'welcome/shucks';
 $route['show/(:num)'] = 'first/gimme/3';
 $route['dunno'] = 'guess';
 $route['wise/bingo'] = 'bingo';
-$route['comp(:num)/*'] = 'bingo/wisdom';
+$route['comp(:num)/.*'] = 'bingo/wisdom';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
